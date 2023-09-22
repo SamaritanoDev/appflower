@@ -9,6 +9,7 @@ class GreetingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.yellow[50],
         title: const Text('Greeting'),
         actions: <Widget>[
           IconButton(
